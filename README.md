@@ -6,6 +6,6 @@ Text size can also be changed by setting text-4xl which sets the text to use Tai
 Then I created a gallery page with a background gradient going from a dark emerald to a lighter emerald with bordered images in a row along the page.
 
 
-The site can be viewed in browser by opening "home". 
+This can be viewed in browser by opening "https://pdtrentham.github.io/Tailwind-CSS/" and then clicking "home". 
 
 <a href="Tailwind CSS Practical/home.html">Home</a> 
