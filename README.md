@@ -7,3 +7,5 @@ Then I created a gallery page with a background gradient going from a dark emera
 
 
 The site can be viewed in browser by opening "home.html". 
+
+<div href="home.html"></div>
