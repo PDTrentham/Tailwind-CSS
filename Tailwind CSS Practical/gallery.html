@@ -6,19 +6,34 @@
       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
       <title> Tailwind Course</title>
   </head>
+  <header class="bg-blue-400 p-1 flex justify-between">
+ <h1 class="text-white font-bold text-3xl sm:text-3xl md:text-base">My Tailwind Website</h1>
+ <nav>
+     <a href="home.html" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block sm:inline text-xl" >Home</a>
+     <a href="gallery.html" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block sm:inline text-xl">Gallery</a>
 
+  </nav>
+</header>
 
 <body class="flex justify-center p-3 bg-gradient-to-r from-emerald-400 to-emerald-100">
-  
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="images\Placeholder Image.png">
-
-
+    <Gallery class="grid md:grid-cols-4 gap-2 sm:grid-cols-2 gap-2 ">
+<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="Placeholder Image.png" alt="A grey square image with Placeholder Image blue text">
+<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="Placeholder Image.png" alt="A grey square image with Placeholder Image blue text">
+<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="Placeholder Image.png" alt="A grey square image with Placeholder Image blue text">
+<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="Placeholder Image.png" alt="A grey square image with Placeholder Image blue text">
+<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="Placeholder Image.png" alt="A grey square image with Placeholder Image blue text">
+<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="Placeholder Image.png" alt="A grey square image with Placeholder Image blue text">
+<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="Placeholder Image.png" alt="A grey square image with Placeholder Image blue text">
+<img class="w-64 h-64 border-2 border-emerald-900 p-1" src="Placeholder Image.png" alt="A grey square image with Placeholder Image blue text">
+    </Gallery>
 </body>
+
+<footer class="bg-emerald-400 flex justify-center">
+<div class="text-center">
+   <nav>
+     <a href="home.html" class="m-1 border text-emerald-900 bg-emerald-200" >Home</a>
+     <a href="gallery.html" class="m-1 border text-emerald-900 bg-emerald-200">Gallery</a>
+  </nav>
+   </div>
+</footer>
+</html>
